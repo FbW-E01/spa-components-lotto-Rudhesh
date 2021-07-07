@@ -27,17 +27,18 @@ click = () => {
 }
 
 reset = () => {
-    this.setState({   data :"",
-    data1 :"",
-    data2 :"",
-    data3 :"",
-    data4 :"",
-    data5 :"",
-    data11 :""})
+    this.setState({   data :null,
+    data1 :null,
+    data2 :null,
+    data3 :null,
+    data4 :null,
+    data5 :null,
+    data11:null
+})
 }
 
 render()   { return(
-        <>
+        <div>
         <h1>Lotto 6/49</h1>
         <p>Generating lucky numbers</p>
        <ul>
@@ -54,7 +55,7 @@ render()   { return(
       onClick={this.reset}>Reset</button>
       
         <button className="btn" onClick={this.click}>Show me lucky number</button>
-    </>
+    </div>
         )}
     }
 
