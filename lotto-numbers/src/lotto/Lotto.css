@@ -1,0 +1,24 @@
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    border: 1px solid rgb(149, 189, 235);
+    background: rgb(248, 248, 248);
+  width: 80px; 
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center; 
+  justify-content: center;  
+  margin: 5px;  
+    
+}
+
+.btn {
+    margin: 5px;
+    background-color: rgb(149, 189, 235);
+    color: rgb(255, 255, 255);
+}
